@@ -1,5 +1,6 @@
 # Setup
 - run `npm run start`
+- go to `http://localhost:5000`
 - knock yourself out!
 
 This is a personal attempt at seeking my teeth into building a 2d scrolling platformer. It is heavily based on
