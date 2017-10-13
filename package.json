@@ -1,0 +1,23 @@
+{
+  "name": "platformer",
+  "version": "1.0.0",
+  "description": "[Meth Meth Method - Super Mario Bros in JavaScript](https://www.youtube.com/watch?v=g-FpDQ8Eqw8&list=PLS8HfBXv9ZWWe8zXrViYbIM2Hhylx8DZx)",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoGil/platformer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheoGil/platformer/issues"
+  },
+  "homepage": "https://github.com/TheoGil/platformer#readme",
+  "dependencies": {
+    "serve": "^6.2.0"
+  }
+}
