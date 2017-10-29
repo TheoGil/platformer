@@ -31,6 +31,10 @@ export default class Spritesheet {
 		this.tiles.set(name, buffer);
 	}
 
+	/*
+	 * Wrapper for define method.
+	 * Use this to define 1*1 tiles
+	 */
 	defineTile (name, x, y) {
 		this.define(name, x * this.tileWidth, y * this.tileHeight, this.tileWidth, this.tileHeight);
 	}
@@ -48,6 +52,10 @@ export default class Spritesheet {
 		}
 	}
 
+	/*
+	 * Wrapper for the draw method.
+	 * Use this to render 1*1 tiles
+	 */
 	drawTile(name, context, x, y) {
 		this.draw(name, context, x * this.tileWidth, y * this.tileHeight);
 	}

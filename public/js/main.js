@@ -1,5 +1,4 @@
 import Compositor from './Compositor.js';
-import Entity from './entity.js';
 import Timer from './Timer.js';
 import {loadLevel} from './loaders.js';
 import {createMario} from './entities.js';
